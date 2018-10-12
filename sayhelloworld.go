@@ -3,7 +3,7 @@ package helloworld
 import "fmt"
 
 func SayHelloWorld() {
-	fmt.Printf("%s", "Hello world!")
+	fmt.Println("Hello world!")
 }
 
 func Version() string {
@@ -11,5 +11,5 @@ func Version() string {
 }
 
 func SayOther(str string) {
-	fmt.Printf("Saying %s", str)
+	fmt.Printf("Saying: %s\n", str)
 }
